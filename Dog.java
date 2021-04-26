@@ -5,6 +5,16 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Dog {
+public class Dog extends Animal {
+    
+    public Dog() {
+        
+    }
+    
+    public String makeSound() {
+        
+        return "Woof";
+        
+    }
 
 }
